@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
 setup(
   name = 'pyzipcin',         # How you named your package folder (MyLib)
   packages = ['pyzipcin'],   # Chose the same as "name"
-  version = '0.1',      # Start with a small number and increase it with every change you make
+  version = '0.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A python3 library providing information of ZIP codes of India as well as Verify Pincode based on data from data.gov.in(2019)',
   long_description = long_description,   # Give a long description about your library
