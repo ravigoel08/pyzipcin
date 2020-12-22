@@ -16,17 +16,17 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">ZIPCIN</h3>
+  <h3 align="center">PYZIPCIN</h3>
 
   <p align="center">
     A python3 library providing information and validation of ZIP codes of India based on data from data.gov.in(2019)
     <br />
-    <a href="https://github.com/ravigoel08/Zipcin"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ravigoel08/pyzipcin"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ravigoel08/Zipcin/blob/master/assets/demo1.gif">View Demo</a>
+    <a href="https://github.com/ravigoel08/pyzipcin/blob/master/assets/demo1.gif">View Demo</a>
     ·
-    <a href="https://github.com/ravigoel08/Zipcin/issues">Report Bug</a>
+    <a href="https://github.com/ravigoel08/pyzipcin/issues">Report Bug</a>
   </p>
 </p>
 
@@ -81,7 +81,7 @@ Python3 and Above
 
 1. Install the Library :eyes:
    ```sh
-   pip install zipcin
+   pip install pyzipcin
    ```
 
 2. And you are done :boom:
@@ -92,7 +92,7 @@ Python3 and Above
 ## Usage 
 
 ```sh
->>> from zipcin import *
+>>> from pyzipcin import *
 
 >>> decode(110032)     # decode(pincode, all_result=False)
 >>> [{'circlename': 'Delhi Circle', 'regionname': 'NA', 'divisionname': 'Delhi East Division', 'officename': 'Babarpur SO North East Delhi', 'pincode': 110032, 'officetype': 'SO', 'delivery': 'Non Delivery', 'district': 'SHAHDARA', 'statename': 'Delhi'}]
@@ -119,7 +119,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 CodewithRv - ravigoel.1997@gmail.com
 
-Project Link: [https://github.com/ravigoel08/Zipcin](https://github.com/ravigoel08/Zipcin)
+Project Link: [https://github.com/ravigoel08/pyzipcin](https://github.com/ravigoel08/pyzipcin)
 
 
 
@@ -128,13 +128,13 @@ Project Link: [https://github.com/ravigoel08/Zipcin](https://github.com/ravigoel
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 
-[contributors-url]: https://github.com/ravigoel08/Zipcin/graphs/contributors
-[forks-url]: https://github.com/ravigoel08/Zipcin/network/members
-[stars-url]: https://github.com/ravigoel08/Zipcin/stargazers
-[issues-url]: https://github.com/ravigoel08/Zipcin/issues
+[contributors-url]: https://github.com/ravigoel08/pyzipcin/graphs/contributors
+[forks-url]: https://github.com/ravigoel08/pyzipcin/network/members
+[stars-url]: https://github.com/ravigoel08/pyzipcin/stargazers
+[issues-url]: https://github.com/ravigoel08/pyzipcin/issues
 [linkedin-url]: https://www.linkedin.com/in/ravi-goyal52/
-[contributors-shield]: https://img.shields.io/github/contributors/ravigoel08/Zipcin?style=for-the-badge
-[issues-shield]: https://img.shields.io/github/issues/ravigoel08/Zipcin?style=for-the-badge
-[forks-shield]: https://img.shields.io/github/forks/ravigoel08/Zipcin?style=for-the-badge
-[stars-shield]: https://img.shields.io/github/stars/ravigoel08/Zipcin?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/ravigoel08/pyzipcin?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/ravigoel08/pyzipcin?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/ravigoel08/pyzipcin?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/ravigoel08/pyzipcin?style=for-the-badge
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555

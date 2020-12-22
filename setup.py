@@ -2,20 +2,20 @@ from setuptools import setup
 with open("README.md", "r") as fh:
   long_description = fh.read()
 setup(
-  name = 'zipcin',         # How you named your package folder (MyLib)
-  packages = ['zipcin'],   # Chose the same as "name"
+  name = 'pyzipcin',         # How you named your package folder (MyLib)
+  packages = ['pyzipcin'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A python3 library providing information of ZIP codes of India as well as Verify Pincode based on data from data.gov.in(2019)',
   long_description = long_description,   # Give a long description about your library
   long_description_content_type = "text/markdown",
-  py_modules = ['zipcin'],
+  py_modules = ['pyzipcin'],
   # package_dir = {'': 'zipcin'},
   author = 'CodewithRv',                   # Type in your name
   author_email = 'ravigoel.1997@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/ravigoel08/Zipcin',   # Provide either the link to your github or to your website
+  url = 'https://github.com/ravigoel08/pyzipcin',   # Provide either the link to your github or to your website
   # download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
-  keywords = ['india', 'zipcodes', 'pincode','data.gov.in', 'zipcin'],   # Keywords that define your package best
+  keywords = ['india', 'zipcodes', 'pincode','data.gov.in', 'pyzipcin'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'sqlalchemy',
       ],

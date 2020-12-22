@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "zipcin"
+name = "pyzipcin"
 version = "0.1.0"
 description = ""
 authors = ["ravigoel08 <ravigoel.1997@gmail.com>"]
