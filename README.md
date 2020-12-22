@@ -103,6 +103,7 @@ Python3 and Above
 >>> validate(110032)   # validate(pincode)
 >>> True
 ```
+![demo](assets/demo1.gif)
 
 
 <!-- LICENSE -->
