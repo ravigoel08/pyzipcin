@@ -1,2 +1,2 @@
-DB_URI = "sqlite:///E:\\learning\\studies\\zipcin\\zipcin\\package\\database.db"
-FILE_PATH = "E:\\learning\studies\zipcin\zipcin\db"
+DB_URI = "sqlite:///E:\\learning\\studies\\pyzipcin\\pyzipcin\\modules\\database.db"
+FILE_PATH = "E:\\learning\studies\pyzipcin\pyzipcin\db"

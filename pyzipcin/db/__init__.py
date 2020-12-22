@@ -1,1 +1,1 @@
-from .createDB import ZipDetail
+from .createDB import ZipDetail, Base

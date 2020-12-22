@@ -1,4 +1,4 @@
-from ..db import ZipDetail
+from ..db import ZipDetail, Base
 from .base import session
 
 

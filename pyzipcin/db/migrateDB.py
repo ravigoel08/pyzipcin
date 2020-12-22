@@ -38,3 +38,5 @@ def populatedb():
         session.add(new_zip)
         print((_iter / total) * 100)
     session.commit()
+
+

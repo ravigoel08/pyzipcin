@@ -4,7 +4,6 @@ from sqlalchemy.ext.declarative import declarative_base
 from .constants import DB_URI
 
 Base = declarative_base()
-engine = create_engine(DB_URI, echo=True)
 
 
 class ZipDetail(Base):
@@ -33,5 +32,6 @@ class ZipDetail(Base):
 
 
 def createDB(DB_URI):
-    engine = create_engine(DB_URI)
+    engine = create_engine(DB_URI, echo=True)
     Base.metadata.create_all(engine)
+

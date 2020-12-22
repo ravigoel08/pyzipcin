@@ -1,2 +1,3 @@
+include *.in
 include *.lock
 include *.md
